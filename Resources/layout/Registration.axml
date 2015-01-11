@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <ImageView
+            android:src="@drawable/tpologo"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:layout_column="0" />
+        <TextView
+            android:text="Registracija za učence"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_column="1"
+            android:gravity="left|center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp" />
+    </TableRow>
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:text="Up. ime:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:layout_column="1"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginRight="15dp"
+            android:id="@+id/et_Register_UpIme" />
+    </TableRow>
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Ime:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="51.4dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:layout_column="1"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginRight="15dp"
+            android:id="@+id/et_Register_Ime" />
+    </TableRow>
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Priimek:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="51.4dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:layout_column="1"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginRight="15dp"
+            android:id="@+id/et_Register_Priimek" />
+    </TableRow>
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Email:"
+            android:inputType="textEmailAddress"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="51.4dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:layout_column="1"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginRight="15dp"
+            android:id="@+id/et_Register_Email" />
+    </TableRow>
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Geslo:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="51.4dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:layout_column="1"
+            android:inputType="textPassword"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginRight="15dp"
+            android:id="@+id/et_Register_Geslo" />
+    </TableRow>
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Šola:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="51.4dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:layout_column="1"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginRight="15dp"
+            android:id="@+id/et_Register_Sola" />
+    </TableRow>
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Leto rojstva:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="51.4dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:layout_column="1"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginRight="15dp"
+            android:id="@+id/et_Register_Rojstvo" />
+    </TableRow>
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="Nazaj"
+            android:id="@+id/bt_Register_Nazaj"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1" />
+        <Button
+            android:text="Registriraj se"
+            android:id="@+id/bt_Register"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginRight="15dp" />
+    </TableRow>
+</TableLayout>

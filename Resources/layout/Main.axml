@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:id="@+id/tableRow1">
+        <ImageView
+            android:src="@drawable/tpologo"
+            android:layout_width="186.2dp"
+            android:layout_height="134.0dp"
+            android:id="@+id/imageView1"
+            android:layout_marginLeft="0.0dp"
+            android:layout_marginRight="0.0dp" />
+        <TextView
+            android:text="TPO inštrukcije"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView1"
+            android:layout_height="51.4dp"
+            android:layout_width="201.6dp"
+            android:layout_marginBottom="18.7dp"
+            android:layout_marginTop="65dp" />
+    </TableRow>
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableRow2"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:text="Up. ime:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView2"
+            android:layout_height="51.4dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:inputType="textEmailAddress"
+            android:layout_column="1"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginRight="15dp"
+            android:id="@+id/et_Email" />
+    </TableRow>
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/tableRow2">
+        <TextView
+            android:text="Geslo:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView2"
+            android:layout_height="51.4dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:layout_marginTop="15dp" />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_column="1"
+            android:id="@+id/et_Password"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginRight="15dp"
+            android:gravity="left|center" />
+    </TableRow>
+    <Button
+        android:text="Prijava"
+        android:id="@+id/bt_Prijava"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center" />
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/tableRow3">
+        <TextView
+            android:text="Še nimaš računa?"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginTop="50dp"
+            android:id="@+id/textView3"
+            android:gravity="right|center"
+            android:layout_marginRight="10dp" />
+        <TextView
+            android:text="Registriraj se."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginTop="50dp"
+            android:id="@+id/tv_Register"
+            android:gravity="left|center"
+            android:layout_width="match_parent" />
+    </TableRow>
+</TableLayout>
